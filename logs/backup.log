@@ -11,3 +11,69 @@
 2025-07-09 15:16:25,446 - CoveoConfigBackup - ERROR - An error occurred: 412 Client Error: Precondition Failed for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsanonproduction1msfr6g52/snapshots
 2025-07-09 15:19:14,042 - CoveoConfigBackup - ERROR - Failed to create snapshot: 412 Client Error: Precondition Failed for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsanonproduction1msfr6g52/snapshots
 2025-07-09 15:19:14,042 - CoveoConfigBackup - ERROR - An error occurred: 412 Client Error: Precondition Failed for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsanonproduction1msfr6g52/snapshots
+2025-07-09 15:49:46,843 - CoveoConfigBackup - ERROR - An error occurred: [Errno 17] File exists: 'snapshots'
+2025-07-09 15:51:36,457 - CoveoConfigBackup - ERROR - An error occurred: [Errno 2] No such file or directory: 'coveo'
+2025-07-09 16:00:44,802 - CoveoConfigBackup - ERROR - Failed to create snapshot with CLI:  ›   Error: command org:config:pull not found
+
+2025-07-09 16:00:44,802 - CoveoConfigBackup - ERROR - An error occurred: Command '['coveo', 'org:config:pull', '-o', 'rolexsanonproduction1msfr6g52', '--snapshotName', 'snapshot_20250709_160043', '--output', 'snapshots/snapshot_20250709_160043.json']' returned non-zero exit status 2.
+2025-07-09 16:07:30,621 - CoveoConfigBackup - ERROR - Failed to create snapshot with CLI:  ›   Error: Unexpected arguments: --snapshotName, snapshot_20250709_160727, 
+ ›   --output, snapshots/snapshot_20250709_160727.json
+ ›   See more help with --help
+
+2025-07-09 16:07:30,622 - CoveoConfigBackup - ERROR - An error occurred: Command '['coveo', 'org:resources:pull', '-o', 'rolexsanonproduction1msfr6g52', '--snapshotName', 'snapshot_20250709_160727', '--output', 'snapshots/snapshot_20250709_160727.json']' returned non-zero exit status 2.
+2025-07-09 16:12:06,897 - CoveoConfigBackup - INFO - CLI output: 
+
+CREATE_SNAPSHOT operation is taking a long time to complete.
+Run the following command to monitor the operation:
+
+  coveo org:resources:monitor rolexsanonproduction1msfr6g52-sxbfxkfp2h5dhrss6235vxsfnu -t rolexsanonproduction1msfr6g52
+
+Once the snapshot is created, you can pull it with the following command:
+
+  coveo org:resources:pull -t rolexsanonproduction1msfr6g52 -s rolexsanonproduction1msfr6g52-sxbfxkfp2h5dhrss6235vxsfnu
+
+
+2025-07-09 16:12:06,899 - CoveoConfigBackup - INFO - Exported new snapshot to snapshots/snapshot_20250709_161102
+2025-07-09 16:12:06,900 - CoveoConfigBackup - ERROR - An error occurred: No module named 'git'
+2025-07-09 16:20:26,922 - CoveoConfigBackup - INFO - CLI output: 
+
+CREATE_SNAPSHOT operation is taking a long time to complete.
+Run the following command to monitor the operation:
+
+  coveo org:resources:monitor rolexsanonproduction1msfr6g52-rhhdjjwxcgsnf7o446wymv2i34 -t rolexsanonproduction1msfr6g52
+
+Once the snapshot is created, you can pull it with the following command:
+
+  coveo org:resources:pull -t rolexsanonproduction1msfr6g52 -s rolexsanonproduction1msfr6g52-rhhdjjwxcgsnf7o446wymv2i34
+
+
+2025-07-09 16:20:26,924 - CoveoConfigBackup - INFO - Parsed snapshotId: rolexsanonproduction1msfr6g52-rhhdjjwxcgsnf7o446wymv2i34
+2025-07-09 16:20:26,924 - CoveoConfigBackup - INFO - Monitoring snapshot creation...
+2025-07-09 16:20:29,004 - CoveoConfigBackup - ERROR - Failed to create snapshot with CLI:  ›   Warning: The org:resources commands are currently in public beta, please 
+ ›   report any issue to github.com/coveo/cli/issues
+ ›   Error: Unexpected arguments: -t, rolexsanonproduction1msfr6g52
+ ›   See more help with --help
+
+2025-07-09 16:20:29,004 - CoveoConfigBackup - ERROR - An error occurred: Command '['coveo', 'org:resources:monitor', 'rolexsanonproduction1msfr6g52-rhhdjjwxcgsnf7o446wymv2i34', '-t', 'rolexsanonproduction1msfr6g52']' returned non-zero exit status 2.
+2025-07-09 16:24:00,873 - CoveoConfigBackup - INFO - CLI output: 
+
+CREATE_SNAPSHOT operation is taking a long time to complete.
+Run the following command to monitor the operation:
+
+  coveo org:resources:monitor rolexsanonproduction1msfr6g52-rcgqors4kxxwkjmcpjskrycb3u -t rolexsanonproduction1msfr6g52
+
+Once the snapshot is created, you can pull it with the following command:
+
+  coveo org:resources:pull -t rolexsanonproduction1msfr6g52 -s rolexsanonproduction1msfr6g52-rcgqors4kxxwkjmcpjskrycb3u
+
+
+2025-07-09 16:24:00,874 - CoveoConfigBackup - INFO - Parsed snapshotId: rolexsanonproduction1msfr6g52-rcgqors4kxxwkjmcpjskrycb3u
+2025-07-09 16:24:00,874 - CoveoConfigBackup - INFO - Monitoring snapshot creation...
+2025-07-09 16:24:02,898 - CoveoConfigBackup - ERROR - Failed to create snapshot with CLI:  ›   Warning: The org:resources commands are currently in public beta, please 
+ ›   report any issue to github.com/coveo/cli/issues
+Monitoring snapshot rolexsanonproduction1msfr6g52-rcgqors4kxxwkjmcpjskrycb3u... !
+    Error: Snapshot with id 
+    'rolexsanonproduction1msfr6g52-rcgqors4kxxwkjmcpjskrycb3u' on 
+    organization: 'rolexsaproductionh21l80g7' does not exist.
+
+2025-07-09 16:24:02,898 - CoveoConfigBackup - ERROR - An error occurred: Command '['coveo', 'org:resources:monitor', 'rolexsanonproduction1msfr6g52-rcgqors4kxxwkjmcpjskrycb3u']' returned non-zero exit status 1.
