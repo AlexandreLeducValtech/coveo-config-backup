@@ -1,7 +1,8 @@
 import os
 import shutil
+import time
 from datetime import datetime
-from coveo_api import create_snapshot, export_snapshot
+from coveo_api import create_snapshot, export_snapshot_content
 from git_utils import commit_snapshot
 from compare import are_snapshots_identical
 from logger import log_info, log_error
@@ -10,9 +11,10 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration
-SNAPSHOT_DIR = 'snapshots'
-LATEST_SNAPSHOT = os.path.join(SNAPSHOT_DIR, 'latest_snapshot.json')
-REPO_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))  # Root of the repo
+PROJECT_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+SNAPSHOT_DIR = os.path.join(PROJECT_ROOT, 'snapshots')
+LATEST_SNAPSHOT = os.path.join(SNAPSHOT_DIR, 'latest_snapshot.zip')
+REPO_PATH = PROJECT_ROOT  # Root of the repo
 
 def main():
     organization_id = os.getenv("COVEO_ORGANIZATION_ID")
@@ -26,8 +28,16 @@ def main():
         snapshot_id = create_snapshot(organization_id, snapshot_name)
         log_info(f"Created snapshot with ID {snapshot_id}")
 
-        # Step 2: Export the snapshot
-        new_snapshot_path = export_snapshot(organization_id, snapshot_id, snapshot_name)
+        # Wait 1 minute before exporting content
+        log_info("Waiting 60 seconds for snapshot to be ready...")
+        time.sleep(60)
+
+        # Ensure the snapshots directory exists
+        os.makedirs(SNAPSHOT_DIR, exist_ok=True)
+
+        # Step 2: Export the snapshot content as ZIP
+        output_path = os.path.join(SNAPSHOT_DIR, f"{snapshot_name}.zip")
+        new_snapshot_path = export_snapshot_content(organization_id, snapshot_id, output_path)
         log_info(f"Exported new snapshot to {new_snapshot_path}")
 
         # Step 3: Compare with the latest snapshot

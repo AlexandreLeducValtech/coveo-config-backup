@@ -1,0 +1,48 @@
+2025-07-11 10:11:50,917 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-v37rrv5k7odgjibfcvxrtwknhi
+2025-07-11 10:11:51,221 - CoveoConfigBackup - ERROR - Failed to export snapshot: 404 Client Error: Not Found for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self/rolexsaproductionh21l80g7-v37rrv5k7odgjibfcvxrtwknhi
+2025-07-11 10:11:51,221 - CoveoConfigBackup - ERROR - An error occurred: 404 Client Error: Not Found for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self/rolexsaproductionh21l80g7-v37rrv5k7odgjibfcvxrtwknhi
+2025-07-11 10:16:46,377 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-wriyr6awohk7qzo4kqecposhvm
+2025-07-11 10:16:47,235 - CoveoConfigBackup - ERROR - Failed to export snapshot: 404 Client Error: Not Found for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self/rolexsaproductionh21l80g7-wriyr6awohk7qzo4kqecposhvm
+2025-07-11 10:16:47,237 - CoveoConfigBackup - ERROR - An error occurred: 404 Client Error: Not Found for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self/rolexsaproductionh21l80g7-wriyr6awohk7qzo4kqecposhvm
+2025-07-11 10:19:49,885 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-qktaxt7xp5nxkvu7mwbllnslca
+2025-07-11 10:19:50,121 - CoveoConfigBackup - ERROR - Failed to export snapshot content: 406 Client Error: Not Acceptable for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-qktaxt7xp5nxkvu7mwbllnslca/content
+2025-07-11 10:19:50,121 - CoveoConfigBackup - ERROR - An error occurred: 406 Client Error: Not Acceptable for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-qktaxt7xp5nxkvu7mwbllnslca/content
+2025-07-11 10:38:49,064 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-ux7fmh337ce2dnw472nfo6cepe
+2025-07-11 10:38:49,350 - CoveoConfigBackup - ERROR - Failed to export snapshot content: 406 Client Error: Not Acceptable for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-ux7fmh337ce2dnw472nfo6cepe/content
+2025-07-11 10:38:49,350 - CoveoConfigBackup - ERROR - An error occurred: 406 Client Error: Not Acceptable for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-ux7fmh337ce2dnw472nfo6cepe/content
+2025-07-11 10:40:58,405 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-qbicuh6njt7b3df7733ouhcjoa
+2025-07-11 10:40:58,405 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 10:41:58,731 - CoveoConfigBackup - ERROR - Failed to export snapshot content: 406 Client Error: Not Acceptable for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-qbicuh6njt7b3df7733ouhcjoa/content
+2025-07-11 10:41:58,734 - CoveoConfigBackup - ERROR - An error occurred: 406 Client Error: Not Acceptable for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-qbicuh6njt7b3df7733ouhcjoa/content
+2025-07-11 10:44:47,125 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-xerxrvrxext2sxlpnbpytzkfuq
+2025-07-11 10:44:47,126 - CoveoConfigBackup - INFO - Waiting 80 seconds for snapshot to be ready...
+2025-07-11 10:46:08,251 - CoveoConfigBackup - ERROR - Failed to export snapshot content: [Errno 2] No such file or directory: 'snapshots/snapshot_20250711_104445.json'
+2025-07-11 10:46:08,253 - CoveoConfigBackup - ERROR - An error occurred: [Errno 2] No such file or directory: 'snapshots/snapshot_20250711_104445.json'
+2025-07-11 10:47:27,495 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-rgqlxo5br36wx5edtdhzrtcpuq
+2025-07-11 10:47:27,496 - CoveoConfigBackup - INFO - Waiting 30 seconds for snapshot to be ready...
+2025-07-11 10:47:58,431 - CoveoConfigBackup - ERROR - Failed to export snapshot content: 404 Client Error: Not Found for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-rgqlxo5br36wx5edtdhzrtcpuq/content
+2025-07-11 10:47:58,433 - CoveoConfigBackup - ERROR - An error occurred: 404 Client Error: Not Found for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-rgqlxo5br36wx5edtdhzrtcpuq/content
+2025-07-11 10:48:18,018 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-wioirl7bqr6apkzu2pr5rpkcai
+2025-07-11 10:48:18,019 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 10:49:18,917 - CoveoConfigBackup - ERROR - Failed to export snapshot content: [Errno 2] No such file or directory: 'snapshots/snapshot_20250711_104817.json'
+2025-07-11 10:49:18,919 - CoveoConfigBackup - ERROR - An error occurred: [Errno 2] No such file or directory: 'snapshots/snapshot_20250711_104817.json'
+2025-07-11 10:53:56,735 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-wlb56hwe3fgqhia3fjyghd2jem
+2025-07-11 10:53:56,737 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 10:54:57,410 - CoveoConfigBackup - ERROR - Failed to export snapshot content: [Errno 2] No such file or directory: 'snapshots/snapshot_20250711_105355.zip'
+2025-07-11 10:54:57,413 - CoveoConfigBackup - ERROR - An error occurred: [Errno 2] No such file or directory: 'snapshots/snapshot_20250711_105355.zip'
+2025-07-11 11:08:10,621 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-unbj4cjqwuquzgxbqijko5cchy
+2025-07-11 11:08:10,621 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:09:10,877 - CoveoConfigBackup - ERROR - Failed to export snapshot content: 400 Client Error: Bad Request for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-unbj4cjqwuquzgxbqijko5cchy/content?contentFormat=flat
+2025-07-11 11:09:10,879 - CoveoConfigBackup - ERROR - An error occurred: 400 Client Error: Bad Request for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/rolexsaproductionh21l80g7-unbj4cjqwuquzgxbqijko5cchy/content?contentFormat=flat
+2025-07-11 11:13:50,955 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-qstkad5mk766l2gb6j2qsnsa2q
+2025-07-11 11:13:50,955 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:14:50,961 - CoveoConfigBackup - ERROR - Failed to export snapshot content: name 'params' is not defined
+2025-07-11 11:14:50,963 - CoveoConfigBackup - ERROR - An error occurred: name 'params' is not defined
+2025-07-11 11:15:36,599 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-xvky7akelh2rdpoblnuy2rkdiu
+2025-07-11 11:15:36,600 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:16:38,412 - CoveoConfigBackup - ERROR - Failed to export snapshot content: [Errno 2] No such file or directory: './snapshots/snapshot_20250711_111536.zip'
+2025-07-11 11:16:38,413 - CoveoConfigBackup - ERROR - An error occurred: [Errno 2] No such file or directory: './snapshots/snapshot_20250711_111536.zip'
+2025-07-11 11:20:21,538 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-xqv36ohngfirn25yrxhhuasas4
+2025-07-11 11:20:21,539 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:21:22,324 - CoveoConfigBackup - INFO - Exported new snapshot to snapshots/snapshot_20250711_112020.zip
+2025-07-11 11:21:22,876 - CoveoConfigBackup - INFO - No previous snapshot found. Committed the initial snapshot.
