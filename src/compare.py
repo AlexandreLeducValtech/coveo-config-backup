@@ -1,20 +1,19 @@
 import zipfile
+import json
 
-def are_snapshots_identical(zip1_path, zip2_path):
-    """
-    Compare two ZIP files by their content and structure.
-
-    Args:
-        zip1_path (str): The file path of the first ZIP file.
-        zip2_path (str): The file path of the second ZIP file.
-
-    Returns:
-        bool: True if the ZIP files are identical, False otherwise.
-    """
-    def zip_content_dict(zip_path):
+def compare_jsons_in_zips(zip1_path, zip2_path):
+    """Extract the single JSON file from each ZIP, load as dict, and compare content."""
+    def extract_single_json(zip_path):
         with zipfile.ZipFile(zip_path, 'r') as z:
-            return {info.filename: z.read(info.filename) for info in sorted(z.infolist(), key=lambda x: x.filename)}
+            json_files = [info for info in z.infolist() if not info.is_dir() and info.filename.lower().endswith('.json')]
+            if len(json_files) != 1:
+                raise ValueError(f"Expected exactly one JSON file in {zip_path}, found {len(json_files)}")
+            data = z.read(json_files[0].filename).decode('utf-8')
+            return json.loads(data)
     try:
-        return zip_content_dict(zip1_path) == zip_content_dict(zip2_path)
-    except Exception:
+        dict1 = extract_single_json(zip1_path)
+        dict2 = extract_single_json(zip2_path)
+        return json.dumps(dict1, sort_keys=True) == json.dumps(dict2, sort_keys=True)
+    except Exception as e:
+        # Optionally log or print the error
         return False

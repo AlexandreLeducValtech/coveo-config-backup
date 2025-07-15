@@ -46,3 +46,35 @@
 2025-07-11 11:20:21,539 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
 2025-07-11 11:21:22,324 - CoveoConfigBackup - INFO - Exported new snapshot to snapshots/snapshot_20250711_112020.zip
 2025-07-11 11:21:22,876 - CoveoConfigBackup - INFO - No previous snapshot found. Committed the initial snapshot.
+2025-07-11 11:26:09,645 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-vqkt2tqhc4vpnjo6b4gul3sm6m
+2025-07-11 11:26:09,646 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:27:10,290 - CoveoConfigBackup - INFO - Exported new snapshot to /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250711_112609.zip
+2025-07-11 11:27:10,522 - CoveoConfigBackup - INFO - No previous snapshot found. Committed the initial snapshot.
+2025-07-11 11:28:27,083 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-suhbzwjf77ca7el6twb5lqkgim
+2025-07-11 11:28:27,085 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:29:27,748 - CoveoConfigBackup - INFO - Exported new snapshot to /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250711_112826.zip
+2025-07-11 11:29:27,977 - CoveoConfigBackup - INFO - Committed new snapshot and updated latest snapshot reference.
+2025-07-11 11:33:35,525 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-xbv457qaqdjeaaiiw3due3cngi
+2025-07-11 11:33:35,527 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:34:36,407 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpdfb8hn_6.zip
+2025-07-11 11:34:36,624 - CoveoConfigBackup - INFO - Committed new snapshot and updated latest snapshot reference.
+2025-07-11 11:48:39,639 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-whcnxiigmgj46ueftswspscgtm
+2025-07-11 11:48:39,639 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 11:49:40,279 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpi_mhy516.zip
+2025-07-11 11:49:40,537 - CoveoConfigBackup - INFO - Committed new snapshot and updated latest snapshot reference.
+2025-07-11 12:01:18,145 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-rl77tp7aeeaoq7m5xgyfbs2dfq
+2025-07-11 12:01:18,145 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 12:02:18,804 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmplb4atybc.zip
+2025-07-11 12:02:19,144 - CoveoConfigBackup - INFO - Committed new snapshot: /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250711_120117.zip
+2025-07-11 14:23:57,803 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-vfiznqu3s33plmllpsbardscre
+2025-07-11 14:23:57,804 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 14:24:58,215 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmp8664za8t.zip
+2025-07-11 14:24:58,726 - CoveoConfigBackup - INFO - Committed new snapshot: /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250711_142357.zip
+2025-07-11 14:39:57,254 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-weotnqzainznxszhv7wobysp4i
+2025-07-11 14:39:57,255 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 14:40:57,650 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmp22w6wx8e.zip
+2025-07-11 14:40:58,160 - CoveoConfigBackup - INFO - Committed new snapshot: /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250711_143956.zip
+2025-07-11 15:58:06,617 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-v7rczrmlt6dwgqnlhzdkstcpiq
+2025-07-11 15:58:06,617 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-11 15:59:07,085 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpc5l1s6zd.zip
+2025-07-11 15:59:07,184 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
