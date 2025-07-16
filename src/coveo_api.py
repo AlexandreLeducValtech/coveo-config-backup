@@ -3,7 +3,6 @@ import os
 import json
 import time
 from logger import log_error
-
 from dotenv import load_dotenv
 
 # Always load .env from the project root, regardless of where the script is run from
@@ -105,4 +104,18 @@ def export_snapshot_content(organization_id, snapshot_id, output_path):
         return output_path
     except Exception as e:
         log_error(f"Failed to export snapshot content: {e}")
+        raise
+
+def delete_snapshot(organization_id, snapshot_id):
+    """Delete a snapshot from Coveo by snapshotId."""
+    url = f"https://platform-eu.cloud.coveo.com/rest/organizations/{organization_id}/snapshots/{snapshot_id}"
+    headers = {
+        "Authorization": f"Bearer {API_KEY}",
+        "Content-Type": "application/json"
+    }
+    try:
+        response = requests.delete(url, headers=headers)
+        response.raise_for_status()
+    except Exception as e:
+        log_error(f"Failed to delete snapshot: {e}")
         raise

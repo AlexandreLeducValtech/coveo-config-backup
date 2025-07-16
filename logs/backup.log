@@ -25,3 +25,32 @@
 2025-07-11 09:44:28,945 - CoveoConfigBackup - ERROR - An error occurred: 403 Client Error: Forbidden for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self
 2025-07-11 09:45:27,039 - CoveoConfigBackup - ERROR - Failed to create snapshot: 403 Client Error: Forbidden for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self
 2025-07-11 09:45:27,040 - CoveoConfigBackup - ERROR - An error occurred: 403 Client Error: Forbidden for url: https://platform-eu.cloud.coveo.com/rest/organizations/rolexsaproductionh21l80g7/snapshots/self
+2025-07-16 11:02:54,680 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-u2c3zg5i4uxwivueic7uvj2bkq
+2025-07-16 11:02:54,680 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-16 11:03:55,157 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmp3i3fpje5.zip
+2025-07-16 11:03:55,277 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
+2025-07-16 11:09:51,228 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-tcdecir7iu7d5qdmbwwopg2jwm
+2025-07-16 11:09:51,228 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-16 11:10:51,867 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpppf3jdu1.zip
+2025-07-16 11:10:51,987 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
+2025-07-16 11:10:52,365 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-tcdecir7iu7d5qdmbwwopg2jwm from Coveo.
+2025-07-16 11:20:58,554 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-xtls6nvwumjplyd55qo66ekfky
+2025-07-16 11:20:58,555 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-16 11:21:58,934 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpvwm5_24k.zip
+2025-07-16 11:21:59,062 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
+2025-07-16 11:21:59,308 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-xtls6nvwumjplyd55qo66ekfky from Coveo.
+2025-07-16 11:29:58,368 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-r5d5xvgkfm6vuo7mant57q2d3q
+2025-07-16 11:29:58,369 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-16 11:30:58,784 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpxoqq2w8y.zip
+2025-07-16 11:30:58,924 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
+2025-07-16 11:30:59,101 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-r5d5xvgkfm6vuo7mant57q2d3q from Coveo.
+2025-07-16 11:36:13,023 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-qaaq6ws2emmdp74sgslzqlso4a
+2025-07-16 11:36:13,025 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-16 11:37:13,410 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmp3xwnl4fb.zip
+2025-07-16 11:37:13,979 - CoveoConfigBackup - INFO - Committed new snapshot: /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250716_113612.zip
+2025-07-16 11:37:14,178 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-qaaq6ws2emmdp74sgslzqlso4a from Coveo.
+2025-07-16 11:37:47,954 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-vbxapgd7xtrlq5tbc6drwq2naq
+2025-07-16 11:37:47,955 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-16 11:38:48,353 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpkh90ec8d.zip
+2025-07-16 11:38:48,480 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
+2025-07-16 11:38:48,656 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-vbxapgd7xtrlq5tbc6drwq2naq from Coveo.
