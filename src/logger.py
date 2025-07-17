@@ -32,6 +32,22 @@ logger = setup_logger()
 
 def log_info(message):
     logger.info(message)
+    _trim_log_file()
 
 def log_error(message):
     logger.error(message)
+    _trim_log_file()
+
+def _trim_log_file(log_path=os.path.join('logs', 'backup.log'), max_lines=500):
+    """Trim the log file to the last max_lines lines if it exceeds that number."""
+    try:
+        if os.path.exists(log_path):
+            with open(log_path, 'r+') as f:
+                lines = f.readlines()
+                if len(lines) > max_lines:
+                    f.seek(0)
+                    f.writelines(lines[-max_lines:])
+                    f.truncate()
+    except Exception as e:
+        # Avoid logging here to prevent recursion
+        pass

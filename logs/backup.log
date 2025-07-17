@@ -54,3 +54,8 @@
 2025-07-16 11:38:48,353 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmpkh90ec8d.zip
 2025-07-16 11:38:48,480 - CoveoConfigBackup - INFO - New snapshot is identical to the latest snapshot (JSON content). Deleted redundant snapshot.
 2025-07-16 11:38:48,656 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-vbxapgd7xtrlq5tbc6drwq2naq from Coveo.
+2025-07-17 10:40:34,158 - CoveoConfigBackup - INFO - Created snapshot with ID rolexsaproductionh21l80g7-wo5r26fmvr5bixhy6g6l772lby
+2025-07-17 10:40:34,158 - CoveoConfigBackup - INFO - Waiting 60 seconds for snapshot to be ready...
+2025-07-17 10:41:34,694 - CoveoConfigBackup - INFO - Exported new snapshot to temporary file /var/folders/tt/ydt1znhd1tn0bxl0w_zvd0mm0000gn/T/tmphp2grsq9.zip
+2025-07-17 10:41:35,567 - CoveoConfigBackup - INFO - Committed new snapshot: /Users/alexandre.leduc/Documents/sites/coveo-config-backup/snapshots/snapshot_20250717_104033.zip
+2025-07-17 10:41:35,826 - CoveoConfigBackup - INFO - Deleted snapshot rolexsaproductionh21l80g7-wo5r26fmvr5bixhy6g6l772lby from Coveo.
